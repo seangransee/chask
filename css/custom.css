@@ -1,0 +1,152 @@
+body {
+  background: url("../img/creampaper.png"); }
+
+#chat {
+  height: 100%;
+  position: fixed;
+  width: 350px;
+  float: left;
+  padding: 20px;
+  margin-top: 0;
+  width: 23%;
+  display: none;
+  border-right: 2px solid #999999;
+  background: #dddddd; }
+
+#panes {
+  float: right;
+  display: none;
+  margin-left: 30%; }
+  #panes h1 {
+    font-size: 18px; }
+
+.pane, #unassigned {
+  float: left; }
+
+#corner {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  padding: 10px;
+  padding-bottom: 0;
+  margin: 0;
+  display: none; }
+
+.group {
+  color: #335203;
+  font-weight: bold; }
+
+#message_form {
+  position: fixed;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  width: 25%; }
+
+.complete {
+  text-decoration: line-through; }
+
+#chatbox {
+  max-height: 85%;
+  position: absolute;
+  bottom: 100px;
+  overflow-y: scroll;
+  margin-right: 20px; }
+
+#key {
+  position: fixed;
+  bottom: 0;
+  left: 29%;
+  display: none; }
+  #key b {
+    text-decoration: underline; }
+  #key span {
+    color: #999999; }
+  #key p {
+    line-height: 8px; }
+
+.name {
+  color: #335203;
+  font-weight: bold; }
+
+.newtask {
+  color: white;
+  background-color: #a51f00;
+  border-radius: 10px;
+  font-weight: bold;
+  width: auto;
+  padding: 2px 10px; }
+
+.startedtask {
+  color: white;
+  background-color: #eb3d15;
+  border-radius: 10px;
+  font-weight: bold;
+  width: auto;
+  padding: 2px 10px; }
+
+.finishedtask {
+  color: white;
+  background-color: #689f16;
+  border-radius: 10px;
+  font-weight: bold;
+  width: auto;
+  padding: 2px 10px; }
+
+.pane {
+  margin: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px dotted #dddddd; }
+  .pane h1 {
+    color: white;
+    background-color: #eb3d15;
+    margin: 0;
+    padding: 0;
+    padding: 0 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    min-width: 75px;
+    text-align: center; }
+  .pane p {
+    padding: 0 10px;
+    font-size: 16px;
+    max-width: 200px; }
+
+#unassigned h1 {
+  background-color: #a51f00; }
+
+#groupname {
+  height: 30px; }
+
+#name_input {
+  height: 30px; }
+
+#connect_button {
+  margin-top: -10px; }
+
+#entergroup {
+  cursor: pointer;
+  margin-top: -7px; }
+
+.joined {
+  color: #aaaaaa; }
+
+#message_input {
+  width: 75%;
+  height: 35px; }
+
+#start {
+  margin: 0 auto;
+  margin-top: 10%;
+  width: 714px;
+  text-align: center;
+  font-family: "Raleway", sans-serif; }
+  #start h2 {
+    margin-top: 40px; }
+
+#send_button {
+  margin-top: -10px; }
+
+.myself h1 {
+  background-color: #689f16; }
